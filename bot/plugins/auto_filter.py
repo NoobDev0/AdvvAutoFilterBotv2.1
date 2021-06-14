@@ -128,8 +128,25 @@ async def auto_filter(bot, update):
             )
         
     else:
-        return # return if no files found for that query
-    
+        send_msg = await bot.send_sticker(
+        chat_id = update.chat.id,
+        sticker="CAACAgUAAxkBAAPfYMWgYRYEQvLw4sxvnrOq2Eip_pMAAvACAAKd4zFWaw1efZPx2SAfBA"
+        reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton
+                                (
+                                    'Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}"
+                                )
+                        ]
+                    ]
+                ),
+        reply_to_message_id=update.message_id
+     ) 
+        await asyncio.sleep(5)
+        await send_msg.delete()
+
+
 
     if len(results) == 0: # double check
         return
@@ -288,3 +305,10 @@ async def recacher(group_id, ReCacheInvite=True, ReCacheActive=False, bot=Bot, u
             ACTIVE_CHATS[str(group_id)] = achatId
     return 
 
+@Client.on_callback_query()
+async def cb_handlerss(client: Client , query: CallbackQuery):
+    data = query.data
+    if data == "lol":
+        await query.answer(
+            "Check Your Spelling By Checking It In *Google* 😑.",
+            show_alert=True
