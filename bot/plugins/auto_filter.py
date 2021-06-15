@@ -130,8 +130,8 @@ async def auto_filter(bot, update):
     else:
         send_msg = await bot.send_sticker(
         chat_id = update.chat.id,
-        sticker="CAACAgUAAxkBAAPfYMWgYRYEQvLw4sxvnrOq2Eip_pMAAvACAAKd4zFWaw1efZPx2SAfBA"
-        reply_markup=InlineKeyboardMarkup(
+        sticker = "CAACAgUAAxkBAAPfYMWgYRYEQvLw4sxvnrOq2Eip_pMAAvACAAKd4zFWaw1efZPx2SAfBA"
+        reply_markup = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
