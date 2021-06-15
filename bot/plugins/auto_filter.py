@@ -128,23 +128,24 @@ async def auto_filter(bot, update):
             )
         
     else:
-        send_msg = await bot.send_sticker(
+        Snd_msg = await bot.send_message(
         chat_id = update.chat.id,
-        sticker="CAACAgUAAxkBAAIBAAFgyHtlnjr-a4-OuEG8FnooBWYsfwAC8AIAAp3jMVZrDV59k_HZIB8E",
+        photo=f"https://telegra.ph/file/94156399042f84228ed67.png",             
+        parse_mode="html",  
         reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton
-                                (
+                             InlineKeyboardButton
+                                 (
                                     'Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}"
-                                )
+                                 )
                         ]
                     ]
                 ),
         reply_to_message_id=update.message_id
-     ) 
-        await asyncio.sleep(5)
-        await send_msg.delete()
+     )
+        await asyncio.sleep(5) # in seconds
+        await Snd_msg.delete()
 
 
 
