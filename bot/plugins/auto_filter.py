@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-        Snd_msg = await bot.send_message(
+        send_msg = await bot.send_message(
         chat_id = update.chat.id,
         photo=f"https://telegra.ph/file/94156399042f84228ed67.png",             
         parse_mode="html",  
@@ -145,7 +145,7 @@ async def auto_filter(bot, update):
         reply_to_message_id=update.message_id
      )
         await asyncio.sleep(5) # in seconds
-        await Snd_msg.delete()
+        await send_msg.delete()
 
 
 
