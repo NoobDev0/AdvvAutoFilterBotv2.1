@@ -128,7 +128,7 @@ async def auto_filter(bot, update):
             )
         
     else:
-        send_msg = await bot.send_message(
+        send_msg = await bot.send_photo(
         chat_id = update.chat.id,
         photo=f"https://telegra.ph/file/20960da2fe54e49087eb5.png",             
         parse_mode="html",  
