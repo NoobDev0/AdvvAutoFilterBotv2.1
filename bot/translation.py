@@ -5,13 +5,13 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {}!!</b></u>
-<i>ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ....😉
- <b>ɪ ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ sᴇʀᴠᴇ <i>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ</i>
+  ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ....😉
+ <b>ɪ ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ sᴇʀᴠᴇ <i>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ
  𝗬𝗼𝘂 𝗖𝗮𝗻'𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗔𝗻𝘆 𝗚𝗿𝗼𝘂𝗽! 😏</b>
 
 Join Our Official Channel
 @aska2zmovies
-</i>"""    
+"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
