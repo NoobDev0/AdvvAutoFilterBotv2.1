@@ -5,10 +5,9 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {}!!</b></u>
-<i>Am Just A Advance Auto Filter Bot....😉
-
- <b>I Am Created to Serve <i>Ask A To Z Movies Group</i>☺</b>
- You Can't Add Me To Any Group 😏
+<i>ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ....😉
+ <b>ɪ ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ sᴇʀᴠᴇ <i>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ</i>
+ 𝗬𝗼𝘂 𝗖𝗮𝗻'𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗔𝗻𝘆 𝗚𝗿𝗼𝘂𝗽! 😏</b>
 
 Join Our Official Channel
 @aska2zmovies
@@ -49,7 +48,7 @@ Join Our Official Channel
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/Cyberrocker">The_Professor</a></i></b>
+<b>➥ Creator</b> : <b><i><a href="https://t.me/JonasKhanwaldTG">Jonas</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
