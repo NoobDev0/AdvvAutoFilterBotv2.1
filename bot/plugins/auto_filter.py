@@ -128,23 +128,22 @@ async def auto_filter(bot, update):
             )
         
     else:
-        send_msg = await bot.send_photo(
+        send_msg = await bot.send_sticker(
         chat_id = update.chat.id,
-        photo=f"https://telegra.ph/file/20960da2fe54e49087eb5.png",             
-        parse_mode="html",  
+        sticker="CAACAgUAAxkBAAEJyDlg1qgThhcVyHBt-yWrbIqZz2AkXQACIAIAAuZhuVYk7gABDGdCPIweBA",
+        reply_to_message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                             InlineKeyboardButton
-                                 (
-                                    'Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}"
-                                 )
-                        ]
-                    ]
-                ),
-        reply_to_message_id=update.message_id
-     )
-        await asyncio.sleep(5) # in seconds
+            [
+                [
+                   InlineKeyboardButton('Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}"
+                ],       
+                [
+                   InlineKeyboardButton('Rules 🚫', callback_data = "lol")
+                ] 
+            ]
+        )
+    )
+        await asyncio.sleep(5) 
         await send_msg.delete()
 
 
@@ -311,6 +310,6 @@ async def cb_handlerss(client: Client , query: CallbackQuery):
     data = query.data
     if data == "lol":
         await query.answer(
-            "Check Your Spelling By Checking It In *Google* 😑.",
+            "Must Follow...!\n\nTenet movie send me 🚫\n Tenet 2020 ✔\n\nCheck Your Spelling By Checking It In *Google* 😑 If Your Movie Name is Incorrect🤷.",
             show_alert=True
      )
