@@ -83,7 +83,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"{file_size}💾{file_name}"
+            button_text = f"{file_size}💾-{file_name}"
             
 
             if file_type == "video":
@@ -135,7 +135,7 @@ async def auto_filter(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                   InlineKeyboardButton('Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}"
+                   InlineKeyboardButton('Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}")
                 ],       
                 [
                    InlineKeyboardButton('Rules 🚫', callback_data = "lol")
@@ -143,7 +143,7 @@ async def auto_filter(bot, update):
             ]
         )
     )
-        await asyncio.sleep(5) 
+        await asyncio.sleep(7) 
         await send_msg.delete()
 
 
