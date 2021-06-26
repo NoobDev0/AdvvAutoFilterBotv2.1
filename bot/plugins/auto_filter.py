@@ -128,12 +128,11 @@ async def auto_filter(bot, update):
             )
         
     else:
-        send_msg = await bot.send_sticker(
-        chat_id = update.chat.id,
-        sticker="CAACAgUAAxkBAALBKWDWx8LMcYsOiBrSC-EN8RjUfUCsAAIgAgAC5mG5VmH7mkgl-DARIAQ",
-        reply_to_message_id=update.message_id,
-        reply_markup=InlineKeyboardMarkup(
-            [
+        send_msg = await bot.send_photo( 
+        chat_id = update.chat.id, 
+        photo=f"https://telegra.ph/file/20960da2fe54e49087eb5.png", 
+        parse_mode="html", 
+        reply_markup=InlineKeyboardMarkup( 
                 [
                    InlineKeyboardButton('Check Spelling 🔎', url=f"http://google.com/search?q={G_SEARCH}")
                 ],       
@@ -141,8 +140,9 @@ async def auto_filter(bot, update):
                    InlineKeyboardButton('Rules 🚫', callback_data = "lol")
                 ] 
             ]
-        )
-    )
+        ),
+    reply_to_message_id=update.message_id
+        )   
         await asyncio.sleep(7) 
         await send_msg.delete()
 
