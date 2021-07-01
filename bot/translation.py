@@ -46,8 +46,8 @@ Join Our Official Channel
             
 @aska2zmovies
 """
-    
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
+   
+    ABOUT_TEXT = """<b>➥ Name</b> : <code> 𝙇 Ꮻ Ҝ 𝕀 ™ </code>
     
 <b>➥ Creator</b> : <b><i><a href="https://t.me/JonasKhanwaldTG">Jonas</a></i></b>
 
