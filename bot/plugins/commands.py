@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🔰 Our Group 🔰', url="https://t.me/AskA2ZMoviez"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Our Group 📽', url='https://t.me/AskA2ZMoviez'),
+        InlineKeyboardButton('My Asgard', url='https://t.me/AskA2ZMoviez'),
         InlineKeyboardButton('Contact Admin 🤖', url='https://t.me/JonasKhanwaldTG')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/aska2zmovies')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
