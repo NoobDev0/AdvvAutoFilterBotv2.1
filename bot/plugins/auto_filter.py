@@ -128,9 +128,10 @@ async def auto_filter(bot, update):
             )
         
     else:
-        send_msg = await bot.send_sticker( 
+        send_msg = await bot.send_message( 
         chat_id = update.chat.id, 
-        sticker="CAACAgUAAxkBAAELZEZg7ZgECWZazF9rdFfYn9vql3FmTgACIQMAAkwLaVeXBM-I8GFn9x4E",  
+        text=f"Damn Bruh! Unfortunately We Couldn't Find This Movie! Make Sure That Your Spelling Is Correct. If Not, Check In Google! 😅 Also Check Out The Rules!",
+        parse_mode="html",  
         reply_to_message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup( 
             [
