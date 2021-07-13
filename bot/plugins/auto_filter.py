@@ -311,6 +311,6 @@ async def cb_handlerss(client: Client , query: CallbackQuery):
     data = query.data
     if data == "lol":
         await query.answer(
-            "Must Follow...!\n\nTenet movie send me ❌ \nTenet movie keep bro ❌ \nTenet movie plz ❌ \nTenet movie in telugu ❌ \nTenet 2020 ✔\nTenet 2020 tel ✔\n\nCheck Your Spelling By Checking It In *Google* 😑 If Your Movie Name is Incorrect🤷.",
+            "Must Follow...!\n\nTenet movie send me ❌ \nTenet movie keep bro ❌ \nTenet movie plz ❌ \nTenet 2020 ✔\nTenet 2020 tel ✔\n\nCheck Your Spelling By Checking It In *Google* 😑 If Your Movie Name is Incorrect🤷.",
             show_alert=True
      )
