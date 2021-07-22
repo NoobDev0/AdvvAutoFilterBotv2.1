@@ -5,10 +5,10 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {}!!</b></u>
- <i>What's Up '<b>Human!</b>'!🌍</i>\n\n  ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ.... ᴡɪᴛʜ ᴍᴀɴʏ ᴘᴏᴡᴇʀs!🔥
+ <i>What's Up '<b>Human!</b>'🌍</i>\n\n  ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ.... ᴡɪᴛʜ ᴍᴀɴʏ ᴘᴏᴡᴇʀs!🔥
 
- ɪ ᴀᴍ ʟᴏᴋɪ ᴏꜰ ᴀsɢᴀʀᴅ ᴀɴᴅ ɪ ᴀᴍ ʙᴜʀᴅᴇɴᴇᴅ ᴡɪᴛʜ ɢʟᴏʀɪᴏᴜs ᴘᴜʀᴘᴏsᴇ ᴏꜰ sᴇʀᴠɪɴɢ <u>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ</u> 🎊
- <i>𝗬𝗼𝘂 𝗖𝗮𝗻'𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗔𝗻𝘆 𝗚𝗿𝗼𝘂𝗽! 😏</i>
+ ɪ ᴀᴍ ʙᴀʏᴍᴀx ᴀɴᴅ ɪ ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ sᴇʀᴠᴇ <u>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ</u> 🎊
+ <i>Sharing Movies Makes Me A Better Movie Provider!</i>
 
 Join Our Official Channel
 @aska2zmovies
@@ -47,7 +47,7 @@ Join Our Official Channel
 @aska2zmovies
 """
    
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> 𝙇 Ꮻ Ҝ 𝕀 ™ </code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code>Bᴀʏᴍᴀx ™</code>
     
 <b>➥ Creator</b> : <b><i><a href="https://t.me/JonasKhanwaldTG">Jonas</a></i></b>
 
