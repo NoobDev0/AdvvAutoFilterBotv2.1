@@ -89,7 +89,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('My Asgard', url='https://t.me/AskA2ZMoviez'),
+        InlineKeyboardButton('My Group 🎯', url='https://t.me/AskA2ZMoviez'),
         InlineKeyboardButton('Contact Admin 🤖', url='https://t.me/JonasKhanwaldTG')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/aska2zmovies')
