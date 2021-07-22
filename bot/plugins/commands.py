@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Share 🙃', url="https://t.me/AskA2ZMoviez"
+                                    'Share 🙃', url="https://t.me/share/url?url=https://t.me/AskA2ZMoviez"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Share 🙃', url="https://t.me/AskA2ZMoviez"
+                                    'Share 🙃', url="https://t.me/share/url?url=https://t.me/AskA2ZMoviez"
                                 )
                         ]
                     ]
