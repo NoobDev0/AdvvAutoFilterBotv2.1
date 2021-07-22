@@ -114,8 +114,8 @@ async def cb_navg(bot, update: CallbackQuery):
             if chat_id not in achatId:
                 continue
             
-            chat_name = y["chat_name"]
-            invite_link = y["invite_link"]
+            chat_name = y["AskA2ZMoviez"]
+            invite_link = y["https://t.me/AskA2ZMoviez"]
             
             if ((len(ibuttons)%2) == 0):
                 ibuttons.append(
