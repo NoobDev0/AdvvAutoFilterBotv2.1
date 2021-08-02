@@ -5,10 +5,10 @@
 class Translation(object):
     
     START_TEXT = """<b><u>Hey {}!!</b></u>
- <i>What's Up '<b>Human!</b>'🌍</i>\n\n  ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ.... ᴡɪᴛʜ ᴍᴀɴʏ ᴘᴏᴡᴇʀs!🔥
+ <i>What's Up '<b>Film Buff!</b>'🎬</i>\n\n  ᴀᴍ ᴊᴜsᴛ ᴀ ᴀᴅᴠᴀɴᴄᴇ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ.... ᴡɪᴛʜ ᴍᴀɴʏ ᴘᴏᴡᴇʀs!🔥
 
- ɪ ᴀᴍ ʙᴀʏᴍᴀx ᴀɴᴅ ɪ ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ sᴇʀᴠᴇ <u>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ</u> 🎊
- <i>Sharing Movies Makes Me A Better Movie Provider!</i>
+ <b>ɪ ᴀᴍ ʙᴀʏᴍᴀx ᴀɴᴅ ɪ ᴀᴍ ᴄʀᴇᴀᴛᴇᴅ ᴛᴏ sᴇʀᴠᴇ <u>ᗩՏK ᗩ TO ᘔ ᗰOᐯIᗴՏ</u></b>🎊
+ 🎭<i>Click The <b>Help</b> To See Nad Unlock My Full Potential </i>
 
 Join Our Official Channel
 @aska2zmovies
